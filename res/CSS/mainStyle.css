@@ -70,10 +70,13 @@ h1, p{
 @media screen and (max-width: 600px) {
     .login{
         width: 100%;
-        background-image: url("../images/homePage.jpg");
+        background-image: url("../images/homepage-phone.jpg");
     }
     .img{
         display: none;  
+    }
+    label{
+        text-align: center;
     }
 
     
