@@ -7,11 +7,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/homeStyle.css">
     <link rel="stylesheet" href="../CSS/mainStyle.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <nav>
+        <a href="../pages/dataView.html">
+            View the data
+            <ion-icon name="document-text-outline"></ion-icon>
+        </a>
+        <a href="../pages/graph.html">
+            Graph
+            <ion-icon name="analytics-outline"></ion-icon>
+        </a>
+        <a href="../../index.html">
+            Log out
+            <ion-icon name="log-out-outline"></ion-icon>
+        </a>
+    </nav>
     <fieldset>
-
+        <h1>Load development</h1>
         <label for="load">Load</label>
         <input type="text" id="load" class = "in">
 
@@ -21,8 +34,17 @@
         <label for="Velocity">Velocity</label>
         <input type="text" id="velocity" class = "in">
 
-        <button type="submit" class="btn">Enter Details</button>
+        <button type="submit" class="btn btnSubmit">Enter Details <ion-icon name="enter-outline"></ion-icon></button>
+        <button class="btn btnSubmit" 
+                onclick="clearFields()">
+                    Reset 
+                    <ion-icon name="refresh-outline"></ion-icon>
+        </button>
     </fieldset>
-                
+             
+    
+    <script src="../JS/clearField.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -14,15 +14,13 @@ fieldset{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-@media screen and (max-width: 600px) {
-    fieldset{
-        width: 90%;
-        margin-left: 5%;
-    }
-
-    .btnSubmit{
-        margin: 10pt 0 10pt 0;
-
-    }
-
+.btnSubmit{
+    margin: 10pt 0 10pt 0;
+    font-size: 15pt;
 }
+
+h1{
+    font-size: 20pt;
+}
+
+
