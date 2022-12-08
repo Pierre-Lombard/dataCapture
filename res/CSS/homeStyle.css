@@ -1,3 +1,28 @@
-body{
-    background-color: #FFE6A7;
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-left: calc(75%/2);
+    margin-top: 25px;
+    
+    background: rgba( 187, 148, 87, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@media screen and (max-width: 600px) {
+    fieldset{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .btnSubmit{
+        margin: 10pt 0 10pt 0;
+
+    }
+
 }
