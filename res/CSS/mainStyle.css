@@ -33,7 +33,7 @@ h1, p{
 .login{
     padding-top: 50pt;
     width: 25%;
-    height: 731pt;
+    height: 100vh;
     background-color: #22577A;
     display: flex;
     flex-direction: column;
@@ -65,4 +65,11 @@ h1, p{
 .btn:active{
     box-shadow: none;
     transform: translateY(5px);
+}
+
+@media screen and (max-width: 600px) {
+    .login{
+        width: 100%;
+    }
+    
 }
