@@ -4,7 +4,9 @@
 *{
     margin: 0;
 	padding: 0;
-	border: 0;
+}
+body{
+    background-color: #99582A;
 }
 
 label{
@@ -13,11 +15,11 @@ label{
     font-size: 19pt;
     padding-top: 10pt;
 }
-h1, p{
+h1{
     font-family: 'Diplomata SC', cursive;
     color: white;
     text-align: center;
-    padding-top: 10pt;
+    padding-top: 0;
 }
 .separator{
     display: flex;
@@ -35,10 +37,9 @@ h1, p{
     display: none;
 }
 .login{
-    padding-top: 50pt;
+    padding-top: 30pt;
     width: 25%;
     height: 100vh;
-    background-color: #99582A;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,6 +75,10 @@ h1, p{
 @media screen and (max-width: 600px) {
     .login{
         width: 100%;
+        margin-top: 0;
+    }
+    .h1{
+        margin-top:0 ;
     }
     .img{
         display: none;  
